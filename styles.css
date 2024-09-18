@@ -1,0 +1,67 @@
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins/Poppins-Light.ttf);
+
+}
+
+body{
+    margin: 0;
+    font-family: poppins;
+    font-size: 15px;
+    font-style: bold;
+    background-image: url("background.jpeg");
+    background-color: rgb(138, 43, 226,0.2);
+    background-blend-mode: lighten;
+    background-size: cover;
+    
+}
+
+.header {
+    text-align: center;
+    text-decoration-style: solid;
+    text-emphasis-style: bold;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: white;
+    z-index: 2;
+    
+}
+fieldset {
+    margin-top: 0.5px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-color: rgba(27, 27, 50, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+    font-family: poppins;
+    font-size: 13px;
+    border:rgba(27, 27, 50, 0.8);
+    border-radius: 5px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+
